@@ -1,0 +1,159 @@
+@import "../style/fonts.css";
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.cats {
+  margin: 88px 0 95px;
+}
+.cats__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.cat__img1 {
+  position: relative;
+  background: url("../images/img.png") no-repeat center/cover;
+  width: 380px;
+  height: 264px;
+}
+
+.cat__img2 {
+  background: url("../images/img_1.png") no-repeat center/cover;
+  width: 380px;
+  height: 264px;
+}
+
+.cat__img3 {
+  background: url("../images/img_2.png") no-repeat center/cover;
+  width: 380px;
+  height: 264px;
+}
+
+.cat__card {
+  background: #F3F3F3;
+}
+
+.cat__desc {
+  padding: 29px 33px 29px 29px;
+}
+
+.cat__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 22px;
+}
+
+.cat_characteristic {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.cat__btn {
+  width: 380px;
+  height: 65px;
+  background: #6EBBD3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.cat__color {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.cat__age_size {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.cat__age {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.cat__paw_size {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  width: 12px;
+}
+
+.cat__paw {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.cat__price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.sale {
+  position: absolute;
+  background: url("../images/img_3.png") no-repeat center/cover;
+  width: 78px;
+  height: 39px;
+}
+
+.cat__btn_sold {
+  width: 380px;
+  height: 65px;
+  left: 531px;
+  top: 544px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #1F2021;
+}
+
+.text {
+  text-align: center;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #000000;
+}
+
+/*# sourceMappingURL=style.css.map */
